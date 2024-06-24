@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.post-list-scrollbar::-webkit-scrollbar {
+  height: 8px;
+}
+
+.post-list-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.post-list-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.post-list-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

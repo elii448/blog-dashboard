@@ -6,7 +6,7 @@ interface CreatePostToggleProps{
 
 const CreatePostToggle = ({onToggle}: CreatePostToggleProps) => {
   return (
-    <div className="w-6/12 mx-auto p-4 bg-white shadow-md rounded-lg">
+    <div className="container mx-auto p-4 bg-white shadow-md rounded-lg">
       <textarea
         id="content"
         readOnly={true}

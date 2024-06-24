@@ -10,13 +10,13 @@ const Layout = ({ children }: LayoutProps) => {
     <div className="flex flex-col min-h-screen">
       <header className="bg-indigo-600 text-white p-4">
         <nav className="container mx-auto">
-          <h1 className="text-3xl font-bold">My Microblog</h1>
+          <h1 className="text-3xl font-bold">Oten G</h1>
         </nav>
       </header>
       {children}
       <footer className="bg-indigo-600 text-white p-4 mt-auto">
         <div className="container mx-auto">
-          <p>&copy; 2024 My Microblog. All rights reserved.</p>
+          <p>&copy; 2024 Oten G. All rights reserved.</p>
         </div>
       </footer>
     </div>
